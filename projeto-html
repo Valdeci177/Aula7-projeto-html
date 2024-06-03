@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o seu arquivo CSS personalizado -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Seção de Conversão Direta -->
+        <section id="conversao-direta" class="mb-5">
+            <h2 class="text-center mt-5">Conversão Direta</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Oferta 1</h5>
+                            <p class="card-text">Descrição da Oferta 1.</p>
+                            <a href="#" class="btn btn-primary">Ação 1</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Oferta 2</h5>
+                            <p class="card-text">Descrição da Oferta 2.</p>
+                            <a href="#" class="btn btn-primary">Ação 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Oferta 3</h5>
+                            <p class="card-text">Descrição da Oferta 3.</p>
+                            <a href="#" class="btn btn-primary">Ação 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Captação de Leads -->
+        <section id="captacao-leads">
+            <h2 class="text-center mt-5">Captação de Leads</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Componente Adicional -->
+        <section id="componente-adicional" class="mt-5">
+            <h2 class="text-center">Componente Adicional</h2>
+            <!-- Adicione aqui o componente adicional -->
+        </section>
+    </div>
+
+    <!-- Link para o JavaScript do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
